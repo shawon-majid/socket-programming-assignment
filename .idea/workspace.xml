@@ -6,8 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="96d29bfb-7774-4dc9-83a2-598d1570a5cb" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/multiple_clients_group_chat/server/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/multiple_clients_group_chat/server/Server.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/multiple_clients_server/server/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/multiple_clients_server/server/Server.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
