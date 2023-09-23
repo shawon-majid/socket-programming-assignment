@@ -5,19 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="96d29bfb-7774-4dc9-83a2-598d1570a5cb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SocketProgrammingAssignment.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/multiple_clients_group_chat/clients/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/multiple_clients_group_chat/clients/ClientHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/multiple_clients_group_chat/server/Server.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/multiple_clients_server/clients/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/multiple_clients_server/clients/ClientHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/multiple_clients_server/server/Server.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/multiple_clients_group_chat/server/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/multiple_clients_group_chat/server/Server.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/multiple_clients_server/server/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/multiple_clients_server/server/Server.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +43,7 @@
     &quot;git-widget-placeholder&quot;: &quot;main&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.multiple_clients_server.clients.Client">
+  <component name="RunManager" selected="Application.Client">
     <configuration name="Client" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="multiple_clients_group_chat.clients.Client" />
       <module name="SocketProgrammingAssignment" />
@@ -80,6 +70,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="multiple_clients_group_chat.server.Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="multiple_clients_group_chat.server.Server" />
+      <module name="SocketProgrammingAssignment" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="multiple_clients_group_chat.server.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="multiple_clients_server.clients.Client" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="multiple_clients_server.clients.Client" />
       <module name="SocketProgrammingAssignment" />
@@ -94,15 +97,17 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.multiple_clients_group_chat.server.Server" />
       <item itemvalue="Application.multiple_clients_server.clients.Client" />
       <item itemvalue="Application.Client" />
       <item itemvalue="Application.Server" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Client" />
+        <item itemvalue="Application.multiple_clients_group_chat.server.Server" />
         <item itemvalue="Application.multiple_clients_server.clients.Client" />
         <item itemvalue="Application.Server" />
-        <item itemvalue="Application.Client" />
       </list>
     </recent_temporary>
   </component>

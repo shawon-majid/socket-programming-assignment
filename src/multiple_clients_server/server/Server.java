@@ -7,6 +7,8 @@ import java.io.IOException;
 import java.net.ServerSocket;
 import java.net.Socket;
 import java.util.Scanner;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
 
 public class Server {
     private static DataOutputStream dataOutputStream = null;
@@ -19,15 +21,11 @@ public class Server {
         try {
             serverSocket = new ServerSocket(8080);
             System.out.println("listening to port:8080");
-
-
-
+            ExecutorService executor = Executors.newFixedThreadPool(10);
 
             while (!serverSocket.isClosed()){
                 Socket clientSocket = serverSocket.accept();
-                ClientHandler clientHandler = new ClientHandler(clientSocket);
-                Thread thread = new Thread(clientHandler);
-                thread.start();
+                executor.execute(new ClientHandler(clientSocket));
             }
 
 
